@@ -1,0 +1,29 @@
+/*Lets target the elements using a universal selector*/
+*{
+  /*change the size of the elements at the same time*/
+  font-size: 30px;
+  font-family: "Courier New";
+}
+
+h1 {
+  color: green;
+}
+
+/*ID Selector Method*/
+#zuitt-motto {
+  /*lets try to change the spacing*/
+  letter-spacing: 15px;
+}
+
+#zuitt-tagline {
+  letter-spacing: 25px;
+} 
+
+.offering-item {
+  /*lets transform the text into a different text case*/
+  text-transform: uppercase;
+  color: yellow;
+}
+#item3 {
+  color: red;
+}
