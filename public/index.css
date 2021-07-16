@@ -1,8 +1,9 @@
-/*Lets target the elements using a universal selector*/
+Lets target the elements using a universal selector*/
 *{
   /*change the size of the elements at the same time*/
   font-size: 30px;
   font-family: "Times New Roman";
+  color: black;
 }
 
 h1 {
@@ -15,9 +16,9 @@ h1 {
   letter-spacing: 15px;
 }
 
-#zuitt-tagline {
+/*#zuitt-tagline {
   letter-spacing: 25px;
-} 
+} */
 
 .offering-item {
   /*lets transform the text into a different text case*/
@@ -28,7 +29,6 @@ h1 {
   color: red;
 }
 
-
 /*lets practive using the attribute selector*/
 /*SYNTAX: tagname[attribute]*/
 input[autocomplete="on"] {
@@ -38,5 +38,77 @@ input[autocomplete="on"] {
   border-style: dotted dashed;
   /*dotted, dashed, solid, double, groove, instet, outset, ridge, none, hidden*/
   /*tip this prop can have 1 -4 values*/
+}
+
+/*demo on step 17*/
+/*DEMO of CSS specificity rule - specific*/
+/*type selector*/
+h3 {
+  letter-spacing: 35px;
+  color: green;
+}
+
+/*class selector*/
+.tagline{
+  letter-spacing: 15px;
+  color: red;
 
 }
+
+
+
+.hover{
+  color: yellow;
+
+}
+
+
+h3[class]{
+  letter-spacing: 20px;
+  color: navy;
+}
+
+
+/*id selector method*/
+#tagline {
+  color: orange !important;
+}
+
+
+/*class, pseudoclasses, attributes*/
+/*attribute selector*/
+
+
+
+/*lets accomplish task 22 and change the dimensions of the image*/
+
+/*adjacent sibling selectors*/
+/*adjacent = > next to or adjoining something else*/
+/*syntax: selector + selector*/
+
+h3 + img {
+  /*change the dimensions of the image*/
+  height: 300px;
+  width: 300px;
+  border-radius: 150px;
+}
+
+#tagline + img {
+  height: 200px;
+  width: 200px;
+  border-radius: 240px;
+}
+
+/*descendant selector*//*descendants*/ 
+/*syntax: selector (parent/ancestor) selector(child/decendant)*/
+
+#bootcamp-learning-list li {
+  /*we will assign a color using hexadecimal value*/
+  color: #240015;
+}
+
+
+
+/*element:pseudo-class-name/value*/
+/*this is an example of pseudoclass*/
+/*pseudo-class is used to define a special state ofa an element

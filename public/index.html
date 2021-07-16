@@ -11,27 +11,41 @@
 
     <!-- lets create an internal CSS Styling -->
     <!-- INTERNAL CSS -->
-<!--      <style>
-       /*lets once modify the style/layout of  our elements below*/
-       h1 {
-        color: blue;
-       }
-       p{
-        color: red;font-size:80px;
-       }
-     </style> -->
+     <style>
+        /*tagtype selector*/
+        *{
+          color: orange;
+        }
+
+        #tagline{
+          color: red;
+        } 
+     </style>
 
   </head>
   <body>
+    <!-- lets create a simple navbar component -->
+    nav#top>
+    <a href="">Zuit</a>
+    <div>
+      <a href="">Landing Page</a>
+      <a href="">Register</a></div>
+  
+
      <!-- lets change the color of the element below  -->
       <h1>Hello Batch 122!</h1>
       <p>Welcome!</p>
 
       <h2 id="zuitt-motto">Opportunities for everyone,</h2>
-      <h3 id="zuitt-tagline">Everywhere!</h3>
+      
+      <!-- demo for step 17 -->
+      <h3 id="tagline" style= "color:blue;"class="hover" name="tagline" align="center">Everywhere!</h3>
+
+      <!-- let's add an image element -->
+      <img src="https://place-puppy.com/450x450" alt="image unavailable">
         
       <!-- the dot is to describe a class attribute -->
-      <ol>
+      <ol id="bootcamp-learning-list">
         <li id="item1" class="offering-item">Day Classes</li>
         <li id="item2" class="offering-item">Night Classes</li>
         <li id="item3" class="offering-item">Intro to Coding Events</li>
