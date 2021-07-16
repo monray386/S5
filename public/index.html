@@ -28,7 +28,7 @@
       <p>Welcome!</p>
 
       <h2 id="zuitt-motto">Opportunities for everyone,</h2>
-      <h3 id="zuitt-tagline">Everywhere</h3>
+      <h3 id="zuitt-tagline">Everywhere!</h3>
         
       <!-- the dot is to describe a class attribute -->
       <ol>
@@ -40,14 +40,24 @@
 
       <!-- create a simple register form -->
       <h2>Register</h2>
+
+
+
+      <!-- fname, lname, email -->
       <form action="">
-        <label for=""></label>
-        <input type="text">
-        <label for=""></label>
-        <input type="text">
-        <label for=""></label>
-        <input type="text">
-        <button type="submit">Apply Now</button>
+        <!-- first name -->
+        <label for="first-name">Firs Name:</label>
+        <input type="text" name="first-name" id="first-name" required autocomplete="on">
+        
+        <!-- last name -->
+        <label for="last-name">Last Name:</label>
+        <input type="text" name="last-name" id="last-name" required autocomplete="off">
+        
+        <!-- email -->
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required autocomplete="off">
+
+        <button type="submit">Apply Now!</button>
       </form>
   </body>
 </html>

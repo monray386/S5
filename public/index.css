@@ -2,7 +2,7 @@
 *{
   /*change the size of the elements at the same time*/
   font-size: 30px;
-  font-family: "Courier New";
+  font-family: "Times New Roman";
 }
 
 h1 {
@@ -26,4 +26,17 @@ h1 {
 }
 #item3 {
   color: red;
+}
+
+
+/*lets practive using the attribute selector*/
+/*SYNTAX: tagname[attribute]*/
+input[autocomplete="on"] {
+  /*lets change the border apperance*/
+  border-width: 5px;
+  border-color: navy;
+  border-style: dotted dashed;
+  /*dotted, dashed, solid, double, groove, instet, outset, ridge, none, hidden*/
+  /*tip this prop can have 1 -4 values*/
+
 }
