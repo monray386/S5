@@ -25,53 +25,63 @@
   </head>
   <body>
     <!-- lets create a simple navbar component -->
-    nav#top>
-    <a href="">Zuit</a>
-    <div>
-      <a href="">Landing Page</a>
-      <a href="">Register</a></div>
-  
+    <nav id="top">
+        <a href="">Zuitt</a>
+          <div>
+            <a href="#landing">Landing</a>
+            <a href="#register">Register</a>
+          </div>
+    </nav>
 
      <!-- lets change the color of the element below  -->
-      <h1>Hello Batch 122!</h1>
-      <p>Welcome!</p>
+    <h1>Hello Batch 122!</h1>
+    <p>Welcome!</p>
 
-      <h2 id="zuitt-motto">Opportunities for everyone,</h2>
+    <h2 id="zuitt-motto">Opportunities for everyone,</h2>
       
-      <!-- demo for step 17 -->
-      <h3 id="tagline" style= "color:blue;"class="hover" name="tagline" align="center">Everywhere!</h3>
+    <!-- demo for step 17 -->
+    <h3 id="tagline" style= "color:blue;"class="hover" name="tagline" align="center">Everywhere!</h3>
 
-      <!-- let's add an image element -->
-      <img src="https://place-puppy.com/450x450" alt="image unavailable">
+      
+    <section id="landing">
         
-      <!-- the dot is to describe a class attribute -->
-      <ol id="bootcamp-learning-list">
-        <li id="item1" class="offering-item">Day Classes</li>
-        <li id="item2" class="offering-item">Night Classes</li>
-        <li id="item3" class="offering-item">Intro to Coding Events</li>
-        <li id="item4" class="offering-item">Free Coding Bootcamp</li>
-      </ol>
-
-      <!-- create a simple register form -->
-      <h2>Register</h2>
-
-
-
-      <!-- fname, lname, email -->
-      <form action="">
-        <!-- first name -->
-        <label for="first-name">Firs Name:</label>
-        <input type="text" name="first-name" id="first-name" required autocomplete="on">
+        <!-- let's add an image element -->
+        <img src="https://place-puppy.com/450x450" alt="image unavailable">
         
-        <!-- last name -->
-        <label for="last-name">Last Name:</label>
-        <input type="text" name="last-name" id="last-name" required autocomplete="off">
-        
-        <!-- email -->
-        <label for="email">Email:</label>
-        <input type="email" name="email" id="email" required autocomplete="off">
+        <!-- the dot is to describe a class attribute -->
+        <ol id="bootcamp-learning-list">
+          <li id="item1" class="offering-item">Day Classes</li>
+          <li id="item2" class="offering-item">Night Classes</li>
+          <li id="item3" class="offering-item">Intro to Coding Events</li>
+          <li id="item4" class="offering-item">Free Coding Bootcamp</li>
+        </ol>
 
-        <button type="submit">Apply Now!</button>
-      </form>
+        <!-- create a method to be redirectd back to the top of the page -->
+        <a href="#top">Back to Top</a>
+    </section>
+
+    <section id="register">
+        
+          <!-- create a simple register form -->
+          <h2>Register</h2>
+
+          <!-- fname, lname, email -->
+          <form action="">
+              <!-- first name -->
+              <label for="first-name">Firs Name:</label>
+              <input type="text" name="first-name" id="first-name" required autocomplete="on">
+        
+              <!-- last name -->
+              <label for="last-name">Last Name:</label>
+              <input type="text" name="last-name" id="last-name" required autocomplete="off">
+        
+              <!-- email -->
+              <label for="email">Email:</label>
+              <input type="email" name="email" id="email" required autocomplete="off">
+
+              <button type="submit">Apply Now!</button>
+          </form>
+          <a href="#top">Back to Top</a>
+    </section>
   </body>
 </html>

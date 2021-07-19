@@ -86,16 +86,11 @@ h3[class]{
 /*adjacent = > next to or adjoining something else*/
 /*syntax: selector + selector*/
 
-h3 ~ section > img {
+h3 + img {
   /*change the dimensions of the image*/
   height: 300px;
   width: 300px;
   border-radius: 150px;
-}
-
-h3 + section #item1{
-  color:red;
-  text-transform: lowercase;
 }
 
 #tagline + img {
@@ -112,19 +107,8 @@ h3 + section #item1{
   color: #240015;
 }
 
-#register > h2 ~ a {
-  text-decoration: none;
-}
-
-
-/*practice on child selector*/
-body > #register > form > label {
-  /*lets change the color of the text but using a different method*/
-  color: rgb(0, 0, 128);
-}
 
 
 /*element:pseudo-class-name/value*/
 /*this is an example of pseudoclass*/
-/*pseudo-class is used to define a special state ofa an element*/
-
+/*pseudo-class is used to define a special state ofa an element
