@@ -1,0 +1,58 @@
+/*step 7*/
+*{
+	font-size: 12px;
+	font-family: "Arial Black";
+}
+
+/*step 6*/
+#yellow-font {
+	color: yellow !important;
+}
+
+/*step 8*/
+h1 {
+	font-size: 45px;
+}
+
+/*step 9*/
+#h2-tag {
+	text-transform: uppercase;
+}
+
+/*step 10*/
+.language-to-be-learned{
+	background-color: lightgreen;
+}
+
+/*step 11*/
+li[value="border"]{
+	border-style: double;
+
+}
+/*step 12*/
+img + ul {
+	text-decoration: none;
+	list-style-type: none;
+}
+
+/*step 13*/
+section img{
+	height: 100px;
+	width: 1000;
+	border-radius: 500px;
+}
+
+/*step 14*/
+ul + p{
+	text-align: center;
+	color: black !important;
+	
+}
+
+/*step 15*/
+
+ul>li{
+
+	letter-spacing: 10px;
+	
+}

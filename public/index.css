@@ -1,4 +1,4 @@
-Lets target the elements using a universal selector*/
+/*Lets target the elements using a universal selector*/
 *{
   /*change the size of the elements at the same time*/
   font-size: 30px;
@@ -6,8 +6,70 @@ Lets target the elements using a universal selector*/
   color: black;
 }
 
+
+body{
+
+  background-color: skyblue;
+}
+
+body > nav {
+  background-color: white;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+/*lets use a hover pseud class on the anchor tags*/
+a:hover {
+  background-color: #b4b6be;
+  text-transform: uppercase;
+}
+
+div{
+  display: inline-block;
+  float: right;
+
+
+}
+
 h1 {
   color: green;
+  text-align: center;
+  font-size: 2rem;
+  font-family: 'Uchen',serif;
+}
+
+#landing {
+  text-align: center;
+  height: 100vh;
+}
+
+#register{
+  text-align: center;
+  height: 100vh;
+}
+
+ol {
+  list-style-type: none;
+}
+
+#register form {
+  background-color: white;
+  border: 2px solid black;
+  height: 185px;
+  width: 25vw;
+  position: relative;
+  left: 37.25%;
+}
+
+#register form > button {
+/*select any color you like*/
+background-color: #cf0053;
+color: white;
+border: 5px;
+border-radius: 15px;
+
 }
 
 /*ID Selector Method*/
