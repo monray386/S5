@@ -43,7 +43,7 @@ section img{
 }
 
 /*step 14*/
-ul + p{
+img ~ p{
 	text-align: center;
 	color: black !important;
 	
