@@ -56,7 +56,7 @@
 	}
 
 	/*10.__*//*11.__*//*12.__*/  
-	.AppHeaderNav_link {
+	.header_scope .AppHeaderNav_item {
 		padding: 25px 15px 20px 40px;
 		text-transform: uppercase;
 		font-size: 12px;
@@ -64,14 +64,15 @@
 	    letter-spacing: 0.3rem; 
 	}
 
-	/*13.__*/  /*14.__*/  {
+	/*13.__*/  /*14.__*/  
+	.AppHeaderNav_link		{
 		text-decoration: none;
 		color: #000000;
 		cursor: pointer;
 	}
 
 	/*section hero_container format*/
-	.header_scope/*15.__*/.hero_container { 
+	.header_scope > /*15.__*/.hero_container { 
 		padding: 6.5rem 80px 0rem 7rem;
 		position: sticky;
 	}    
