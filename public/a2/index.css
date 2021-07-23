@@ -42,7 +42,7 @@
 
 /*navbar component formatting*/	
 	/*8.__*/  
-	header .AppHeaderNav_list{
+	.AppHeader_wrapper .AppHeaderNav_list{
 		display: inline-flex;
 		list-style-type: none; 
 	}
@@ -77,7 +77,7 @@
 		position: sticky;
 	}    
 
-	/*16.__*//*17__*/.hero_container > /*18.__*/  {
+	/*16.__*//*17__*/.header_scope .hero_container > .hero_title_0/*18.__*/  {
 		font-size: 45px; 
 		font-family: 'STIX Two Math', serif;
 		line-height: 1;
@@ -89,19 +89,19 @@
 		line-height: 1;
 		letter-spacing: 1.8rem; 
 	}
-
-	.AppHeader_wrapper > .header_scope  /*19.__*/  {
+	/*left off*/
+	.AppHeader_wrapper > .header_scope p /*19.__*/  {
 		font-family: 'STIX Two Math', serif; 
 		padding-top: 60px;
 		font-weight: 700;
 	}
 
-	/*20.__*/  > .header_scope  /*21.__*/  {	
+	/*20.__*/  .AppHeader_wrapper > .header_scope >.hero_container /*21.__*/  {	
 		position: sticky;
 		height: 100vh;
 	}
 
-	.AppHeader_wrapper /*23.__*/  > /*22.__*/  {
+	.AppHeader_wrapper #page_feature/*23.__*/  > .page_feature_title/*22.__*/  {
 		padding: 5px 5px 5px 5px;
 		margin: 15rem 10rem 2rem 0px;
 		float: right;
@@ -191,7 +191,7 @@
 	}
 
 /*main component section*/
-	/*36.__*/  {
+	/*36.__*/ .homepage {
 		background: url("https://images.pexels.com/photos/6238297/pexels-photo-6238297.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
 		background-size: cover; 
 		background-repeat: no-repeat;
