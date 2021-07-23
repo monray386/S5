@@ -96,7 +96,7 @@
 		font-weight: 700;
 	}
 
-	/*20.__*/  .AppHeader_wrapper > .header_scope >.hero_container /*21.__*/  {	
+	/*20.__*/  .AppHeader_wrapper > .header_scope > #page_feature /*21.__*/  {	
 		position: sticky;
 		height: 100vh;
 	}
@@ -118,7 +118,7 @@
 		border-radius: 150px; 
 	}
 
-	/*24.__*/  #page_feature /*25.__*/  #page_feature_scroll {
+	/*24.__*/  .AppHeader_wrapper #page_feature > /*25.__*/  #page_feature_scroll {
 		padding: 5px 5px 5px 5px;
 		margin: 0rem 10rem 0px 0px;
 		text-decoration: none; 
@@ -136,7 +136,7 @@
 		border-radius: 250px; 
 	}
 
-	.AppHeader_wrapper /*26.__*/  /*27.__*/  #feature_table {
+	.AppHeader_wrapper #page_feature > .page_feature_title , /*26.__*/  /*27.__*/  #feature_table {
 		float: right;
 		padding: 0px 5px 5px 5px;
 		margin: 0px 2rem 0rem 0px;
