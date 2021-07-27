@@ -51,8 +51,7 @@
 		font-size: 20px; 
 	}
 
-	/*10.__*//*11.__*//*12.__*/
-	header .AppHeaderNav_list .AppHeaderNav_item    {
+	.header_scope .AppHeaderNav_item  {
 		padding: 25px 15px 20px 40px;
 		text-transform: uppercase;
 		font-size: 12px;
@@ -60,21 +59,19 @@
 	    letter-spacing: 0.3rem; 
 	}
 
-	/*13.__*/  /*14.__*/  
-	.AppHeaderNav_item .AppHeaderNav_link	{
+	.AppHeaderNav_link {
 		text-decoration: none;
 		color: #000000;
 		cursor: pointer;
 	}
 
 	/*section hero_container format*/
-	.header_scope >/*15.__*/.hero_container { 
+	.header_scope > .hero_container { 
 		padding: 6.5rem 80px 0rem 7rem;
 		position: sticky;
 	}    
 
-	/*16.__*//*17__*/
-	.AppHeader_wrapper .header_scope .hero_container > .hero_title_0/*18.__*/  {
+	.header_scope .hero_container > .hero_title_0  {
 		font-size: 45px; 
 		font-family: 'STIX Two Math', serif;
 		line-height: 1;
@@ -93,12 +90,14 @@
 		font-weight: 700;
 	}
 
-	/*20.__*/ .AppHeader_wrapper > .header_scope #page_feature /*21.__*/  {	
+	/*20.__*/ /* > .header_scope */ /*21.__*/  
+
+	.AppHeader_wrapper > .header_scope >	.hero_container	{	
 		position: sticky;
 		height: 100vh;
 	}
 
-	.AppHeader_wrapper /*23.__*/  #page_feature > .page_feature_title/*22.__*/  {
+	.AppHeader_wrapper #page_feature/*23.__*/  > .page_feature_title/*22.__*/  {
 		padding: 5px 5px 5px 5px;
 		margin: 15rem 10rem 2rem 0px;
 		float: right;
@@ -115,13 +114,13 @@
 		border-radius: 150px; 
 	}
 
-	/*24.__*/ .AppHeader_wrapper #page_feature >/*25.__*/  #page_feature_scroll {
+	/*24.__*/  .AppHeader_wrapper #page_feature /*25.__*/  #page_feature_scroll {
 		padding: 5px 5px 5px 5px;
 		margin: 0rem 10rem 0px 0px;
 		text-decoration: none; 
 		float: right;
 		width: 25vw; 
-		text-transform: uppercase;
+		text-transform: 	;
 		font-family: GFSmith, sans-serif;
 		font-size: 12px;
 	    line-height: 1; 
@@ -133,20 +132,20 @@
 		border-radius: 250px; 
 	}
 
-	.AppHeader_wrapper .header_scope #page_feature/*26.__*/  /*27.__*/ #feature_table {
+	.AppHeader_wrapper .header_scope #page_feature /*26.__*/  /*27.__*/  #feature_table {
 		float: right;
 		padding: 0px 5px 5px 5px;
 		margin: 0px 2rem 0rem 0px;
 
 	}
 
-	.AppHeader_wrapper .header_scope /*28.__*/#page_feature #feature_table /*29.__*/#table_head {
+	.AppHeader_wrapper /*28.__*/#page_feature/*29.__*/ #table_head {
 		text-transform: uppercase;
 		line-height: 2; 
 		letter-spacing: 0.3rem;
 	}
 
-	.AppHeader_wrapper .header_scope #table_head /*30.__*//*31.__*/  .head_item {
+	.AppHeader_wrapper/*30.__*//*31.__*/  #page_feature #feature_table .head_item {
 		font-size: 12px; 
 		padding: 15px 15px 15px 15px;
 		background-color: #cf0053;  
@@ -166,7 +165,7 @@
 		padding: 15px 15px 15px 15px; 
 	}
 
-	.AppHeader_wrapper #page_feature #item_head/*32.__*/  {
+	.AppHeader_wrapper #page_feature /*32.__*/ #table_foot {
 		font-size: 14px;
 		color: white;
 		padding: 15px 15px 15px 15px;
@@ -176,7 +175,7 @@
 		letter-spacing: 1px; 
 	}
 	
-	/*33.__*//*34.__*/.AppHeader_wrapper .header_scope #page_feature #table_foot/*35.__*/  {
+	/*33.__*//*34.__*/#page_feature /*35.__*/ th {
 		line-height: 3; 
 		text-transform: uppercase;
 		letter-spacing: 1.5px;
@@ -188,8 +187,7 @@
 	}
 
 /*main component section*/
-	/*36.__*/  
-	.homepage{
+	/*36.__*/  .homepage{
 		background: url("https://images.pexels.com/photos/6238297/pexels-photo-6238297.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
 		background-size: cover; 
 		background-repeat: no-repeat;
@@ -197,7 +195,7 @@
 		height: 140vh; 
 	}
 
-	main #trainers .trainer_images/*37.__*/ /*38.__*/  { 
+	main /*37.__*/ /*38.__*/  { 
 		margin: 1rem 8rem 3rem 3rem;
 		padding-top: 2rem; 
 		height: 100vh;
@@ -222,13 +220,13 @@
 		text-align: center;
 	} 
 
-	main #trainers .trainer_images /*39.__*/  /*40.__*/  {
+	main #trainers ./*39.__*/  /*40.__*/  {
 		padding: 20px 20px 20px 20px;	
 		display: inline-flex;
 		width: 3vw; 
 	} 
 
-	.homepage #trainers .trainer_images img/*41.__*//*42.__*/  {
+	.homepage #trainers/*41.__*//*42.__*/  {
 		height: 20rem;
 		width: 15rem; 
 		border: 1;
@@ -237,7 +235,7 @@
 		border: 4px solid white;
 	} 
 
-	/*43.__*/  /*44.__*/ .homepage #trainers > a {
+	/*43.__*/  /*44.__*/ > a {
 		padding: 5px 5px 5px 5px;
 		margin: 24rem 0rem 1px 5px;
 		text-decoration: none; 
@@ -263,7 +261,7 @@
 		float: right;	
 	} 
 
-	#trainees /*45.__*/ > .page_feature_title { 	
+	#trainees >/*45.__*/ .page_feature_title { 	
 		text-transform: uppercase;
 		background-color: #cf0053; 
 		line-height: 1s; 
@@ -357,12 +355,3 @@
 		letter-spacing: 0.3rem;
 		border-radius: 150px; 
 	}
-
-
-
-
-
-
-
- 
-
